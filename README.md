@@ -13,3 +13,17 @@ Volunteer Registration System built for NayePankh Foundation Internship Task.
 - Authentication
 - Admin Dashboard
 - Responsive Design
+
+
+# Demo Credentials
+
+## Volunteer
+Register a new account
+
+## Admin
+
+Email:
+admin@nayepankh.org
+
+Password:
+admin123
