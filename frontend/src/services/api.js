@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://naye-pankh-volunteer-system.onrender.com/api',
 });
 
 API.interceptors.request.use((req) => {
@@ -20,6 +20,7 @@ export const updateProfile = (data) => API.put('/volunteer/profile', data);
 export const getEvents = () => API.get('/volunteer/events');
 export const joinEvent = (eventId) => API.post(`/volunteer/events/${eventId}/join`);
 export const getMyEvents = () => API.get('/volunteer/my-events');
+
 
 export const getAllVolunteers = () => API.get('/admin/volunteers');
 export const deleteVolunteer = (id) => API.delete(`/admin/volunteers/${id}`);
